@@ -45,7 +45,7 @@ function createButtons(numberButtons) {
     var buttonHtml = '';
 
     for (i = 1; i < numberButtons/2 + 1; i++) {
-        buttonHtml = buttonHtml.concat('<button type="button" class="btn btn-primary choiceButton" id="button' + i + '" style="width:200px">' + i + '</button>');
+        buttonHtml = buttonHtml.concat('<button type="button" class="btn btn-primary choiceButton" id="button' + i + '" style="width:200px; padding: 5px 5px;">' + i + '</button>');
     }
     buttonHtml = buttonHtml.concat('<br><br>');   
     for (i = numberButtons/2 + 1; i < numberButtons + 1; i++) {
